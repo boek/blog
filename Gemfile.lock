@@ -1,9 +1,25 @@
 GEM
   specs:
     builder (3.0.0)
+    capistrano (2.12.0)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
     coderay (1.0.7)
+    highline (1.6.13)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.5.2)
+    net-ssh-gateway (1.1.0)
+      net-ssh (>= 1.99.1)
     rack (1.4.1)
     rdiscount (1.6.8)
+    rvm-capistrano (1.2.5)
+      capistrano (>= 2.0.0)
     toto (0.4.9)
       builder
       rack
@@ -14,4 +30,5 @@ PLATFORMS
 
 DEPENDENCIES
   coderay
+  rvm-capistrano
   toto

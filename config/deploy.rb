@@ -1,11 +1,14 @@
+require "rvm/capistrano"
 require "bundler/capistrano"
+set :rvm_type, :system
+set :rvm_ruby_string, 'ruby-1.9.3-p194'
 
 set :application, "blog"
 set :repository,  "git@github.com:jeffboek/blog.git"
 
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-set :user, "jeffboek"
+set :user, :jeffboek
 set :app_server, :passenger
 set :ssh_options, { :forward_agent => true }
 role :web, "jeffboek.com"                          # Your HTTP server, Apache/etc
