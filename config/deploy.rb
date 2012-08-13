@@ -1,4 +1,4 @@
-require "bunder/capistrano"
+require "bundler/capistrano"
 
 set :application, "blog"
 set :repository,  "git@github.com:jeffboek/blog.git"
