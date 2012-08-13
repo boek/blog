@@ -1,0 +1,16 @@
+---
+title: test
+date: 13/08/2012
+
+
+		<bold>sup</bold>
+
+~
+
+<code lang="ruby">
+def say_hello(name)
+	"Hello #{name}"
+end
+puts say_hello("Jeff")
+#=> "Hello Jeff"
+</code>
