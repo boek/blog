@@ -1,6 +1,4 @@
-
 require 'toto'
-require './toto-extend.rb'
 
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'

@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:jeffboek/toto.git
+  revision: a8f3fffb17a9c1c85b1eaa0972b6c706411dfb7f
+  specs:
+    toto (0.4.9)
+      builder
+      coderay
+      rack
+      rdiscount
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -21,15 +31,10 @@ GEM
     rdiscount (1.6.8)
     rvm-capistrano (1.2.5)
       capistrano (>= 2.0.0)
-    toto (0.4.9)
-      builder
-      rack
-      rdiscount
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  coderay
   rvm-capistrano
-  toto
+  toto!
