@@ -70,3 +70,13 @@ require './toto-extend.rb'
 And then I styled it using my favorite theme [Solarized](http://ethanschoonover.com/solarized). You can grab the css [here](/css/coderay.css).
 
 Still have a few kinks to work out, but this should get you going. If you need any help feel free to give me a shout on [Twitter](http://twitter.com/jeffboek)
+
+***
+
+#Edit
+
+Not surprising there is a *better* way to add functionality to a gem. Instead of Monkeypatching it in, you can Fork the repo on Github. Make your changes, and reference it in your Gemfile like so
+
+<code lang="ruby">
+gem "toto", :git => "git@github.com:jeffboek/toto.git"
+</code>
