@@ -4,7 +4,7 @@ working_directory "/home/jeffboek/www/blog"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
-pid "/home/jeffboek/www/blog/pids/unicorn.pid"
+pid "/home/jeffboek/www/blog/tmp/pids/unicorn.pid"
 
 # Path to logs
 # stderr_path "/path/to/logs/unicorn.log"
@@ -14,7 +14,7 @@ stdout_path "/home/jeffboek/www/blog/logs/unicorn.log"
 
 # Unicorn socket
 # listen "/tmp/unicorn.[app name].sock"
-listen "/tmp/unicorn.myapp.sock"
+listen "/tmp/sockets/unicorn.myapp.sock"
 
 # Number of processes
 # worker_processes 4
