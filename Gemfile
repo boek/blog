@@ -1,4 +1,5 @@
 source "http://rubygems.org"
 
-gem "toto", :git => "git@github.com:jeffboek/toto.git"
+gem "unicorn"
+gem "toto", :git => "git@github.com:boek/toto.git"
 gem 'rvm-capistrano'
