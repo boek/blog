@@ -14,7 +14,7 @@ stdout_path "/home/jeffboek/www/blog/logs/unicorn.log"
 
 # Unicorn socket
 # listen "/tmp/unicorn.[app name].sock"
-listen "/tmp/sockets/unicorn.myapp.sock"
+listen "/tmp/sockets/unicorn.blog.sock"
 
 # Number of processes
 # worker_processes 4
