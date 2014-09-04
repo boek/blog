@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
 gem "unicorn"
-gem "toto", :git => "git@github.com:boek/toto.git"
+gem "toto", :git => "https://github.com/boek/toto.git"
